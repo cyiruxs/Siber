@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "769fbf73307f37e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9de368e93f108a2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b35d9c1549cc5481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Babamuro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Babamuro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58eb966cd04d18d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "97c5cf016e45055d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b417a575215cf451",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8af545f39d309394",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4313b5fdc080c8dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58e1a20fef5947de",
+    "type": "split",
+    "children": [
+      {
+        "id": "af7cda7205278ce7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57a7d74bdebd62ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Gidilecek sıra.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Gidilecek sıra"
+            }
+          },
+          {
+            "id": "fe9a161c58de190d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a5d01e59b29555f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9a986dbdd656218a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "b35d9c1549cc5481",
+  "lastOpenFiles": [
+    "Websiteleri nasıl çalışır/HTML.md",
+    "Babamuro.md",
+    "Attachments/Gidilecek sıra.md",
+    "Websiteleri nasıl çalışır/README.md",
+    "README.md",
+    "Untitled",
+    "Siber/README.md",
+    "Siber",
+    "bak-up/desktop.ini",
+    "bak-up/README.md",
+    "bak-up",
+    "Backup",
+    "2025-02-15.md",
+    "Websiteleri nasıl çalışır/Websiteleri nasıl çalışır.md",
+    "Attachments/Pasted image 20250214222818.png",
+    "Untitled.canvas",
+    "Attachments/example_html.png",
+    "2025-02-14.md",
+    "Attachments/a2117dc267fbb169e38be77c7af44027.png",
+    "Erken Siber/Cookies.md",
+    "a2117dc267fbb169e38be77c7af44027.png.md",
+    "Cookies/a2117dc267fbb169e38be77c7af44027.png",
+    "Attachments",
+    "Websiteleri nasıl çalışır"
+  ]
+}
