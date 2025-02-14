@@ -11,14 +11,10 @@
             "id": "b35d9c1549cc5481",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Websiteleri-nasıl-çalışır/Babamuro.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Babamuro"
+              "title": "New tab"
             }
           }
         ]
@@ -169,13 +165,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b417a575215cf451",
+  "active": "b35d9c1549cc5481",
   "lastOpenFiles": [
+    "Websiteleri-nasıl-çalışır/Babamuro.md",
+    "Website/Websiteleri nasıl çalışır.md",
+    "Website/Babamuro.md",
+    "Website/HTML.md",
+    "Website",
     "Websiteleri nasıl çalışır/Websiteleri nasıl çalışır.md",
     "Websiteleri-nasıl-çalışır/Websiteleri nasıl çalışır.md",
     "Websiteleri-nasıl-çalışır/HTML.md",
     "Websiteleri-nasıl-çalışır",
-    "Websiteleri-nasıl-çalışır/Babamuro.md",
     "Websiteleri nasıl çalışır/HTML.md",
     "Attachments/Gidilecek sıra.md",
     "Websiteleri nasıl çalışır/README.md",
