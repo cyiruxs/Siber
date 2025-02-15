@@ -11,10 +11,14 @@
             "id": "b35d9c1549cc5481",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Siber Başlangıç/Website/Web Sunucuları Nasıl Çalışır.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Web Sunucuları Nasıl Çalışır"
             }
           }
         ]
@@ -167,11 +171,24 @@
   },
   "active": "b35d9c1549cc5481",
   "lastOpenFiles": [
-    "Websiteleri-nasıl-çalışır/Babamuro.md",
-    "Website/Websiteleri nasıl çalışır.md",
+    "Siber Başlangıç/Website/Diğer Bileşenler.md",
+    "Siber Başlangıç/Linux/Linux Notlar.md",
+    "Siber Başlangıç",
+    "Siber Başlangıç/Website/Web Sunucuları Nasıl Çalışır.md",
+    "Siber Başlangıç/Linux",
+    "Attachments/Pasted image 20250215021310.png",
+    "Attachments/Pasted image 20250215021206.png",
+    "Attachments/Pasted image 20250215021154.png",
+    "Siber Başlangıç/Website/HTML Enjeksiyonu.md",
+    "Attachments/Pasted image 20250215015754.png",
+    "Attachments/html_source.png",
+    "Siber Başlangıç/Website/Data Exposure.md",
+    "Siber Başlangıç/Website/JavaScript.md",
+    "Siber Başlangıç/Website/HTML.md",
     "Website/Babamuro.md",
-    "Website/HTML.md",
-    "Website",
+    "Siber Başlangıç/Website/Websiteleri nasıl çalışır.md",
+    "Websiteleri-nasıl-çalışır/Babamuro.md",
+    "Siber Başlangıç/Website",
     "Websiteleri nasıl çalışır/Websiteleri nasıl çalışır.md",
     "Websiteleri-nasıl-çalışır/Websiteleri nasıl çalışır.md",
     "Websiteleri-nasıl-çalışır/HTML.md",
@@ -180,7 +197,6 @@
     "Attachments/Gidilecek sıra.md",
     "Websiteleri nasıl çalışır/README.md",
     "README.md",
-    "Untitled",
     "Siber/README.md",
     "Siber",
     "bak-up/desktop.ini",
