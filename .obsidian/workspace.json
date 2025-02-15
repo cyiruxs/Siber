@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "İşletim Sistemleri/Linux/Temel Linux Komutları ve Operatörleri.md",
+                "file": "İşletim Sistemleri/Linux/Linux Notlar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Temel Linux Komutları ve Operatörleri"
+              "title": "Linux Notlar"
             }
           }
         ]
@@ -170,8 +170,11 @@
   },
   "active": "b417a575215cf451",
   "lastOpenFiles": [
-    "İşletim Sistemleri/Linux/Linux Notlar.md",
+    "İşletim Sistemleri/Windows",
     "İşletim Sistemleri/Linux/Temel Linux Komutları ve Operatörleri.md",
+    "CyberSec/Websiteleri nasıl çalışır.md",
+    "CyberSec/JavaScript.md",
+    "İşletim Sistemleri/Linux/Linux Notlar.md",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215015754.png",
@@ -185,10 +188,8 @@
     "CyberSec/HTML Enjeksiyonu.md",
     "Attachments/html_source.png",
     "CyberSec/Data Exposure.md",
-    "CyberSec/JavaScript.md",
     "CyberSec/HTML.md",
     "Website/Babamuro.md",
-    "CyberSec/Websiteleri nasıl çalışır.md",
     "Websiteleri-nasıl-çalışır/Babamuro.md",
     "Siber Başlangıç/Website",
     "Websiteleri nasıl çalışır/Websiteleri nasıl çalışır.md",
