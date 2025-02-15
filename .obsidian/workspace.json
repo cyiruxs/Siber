@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "İşletim Sistemleri/Linux/Linux Notlar.md",
+                "file": "İşletim Sistemleri/Windows/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Notlar"
+              "title": "Untitled"
             }
           }
         ]
@@ -170,11 +170,12 @@
   },
   "active": "b417a575215cf451",
   "lastOpenFiles": [
+    "İşletim Sistemleri/Linux/Linux Notlar.md",
+    "İşletim Sistemleri/Windows/Untitled.md",
     "İşletim Sistemleri/Windows",
     "İşletim Sistemleri/Linux/Temel Linux Komutları ve Operatörleri.md",
     "CyberSec/Websiteleri nasıl çalışır.md",
     "CyberSec/JavaScript.md",
-    "İşletim Sistemleri/Linux/Linux Notlar.md",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215015754.png",
@@ -213,7 +214,6 @@
     "Attachments/a2117dc267fbb169e38be77c7af44027.png",
     "Erken Siber/Cookies.md",
     "a2117dc267fbb169e38be77c7af44027.png.md",
-    "Cookies/a2117dc267fbb169e38be77c7af44027.png",
-    "Attachments"
+    "Cookies/a2117dc267fbb169e38be77c7af44027.png"
   ]
 }
