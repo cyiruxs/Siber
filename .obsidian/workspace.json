@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "İşletim Sistemleri/Linux/SSH.md",
+                "file": "Untifdtled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH"
+              "title": "Untifdtled"
             }
           }
         ]
@@ -158,22 +158,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "b35d9c1549cc5481",
   "lastOpenFiles": [
+    "Attachments/Token.md",
+    "Untifdtled.md",
+    "İşletim Sistemleri/Linux/SSH.md",
     "İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "2025-02-16.md",
     "İşletim Sistemleri/Linux/Temel Linux Komutları.md",
-    "İşletim Sistemleri/Linux/SSH.md",
     "CyberSec/Data Exposure.md",
     "İşletim Sistemleri/Windows/Untitled.md",
     "İşletim Sistemleri/Linux/Linux Notlar.md",
@@ -210,10 +212,8 @@
     "bak-up/README.md",
     "bak-up",
     "Backup",
-    "2025-02-15.md",
     "Attachments/Pasted image 20250214222818.png",
     "Untitled.canvas",
-    "2025-02-14.md",
     "Attachments/a2117dc267fbb169e38be77c7af44027.png",
     "Cookies/a2117dc267fbb169e38be77c7af44027.png"
   ]
