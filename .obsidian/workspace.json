@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untifdtled.md",
+                "file": "Attachments/Token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untifdtled"
+              "title": "Token"
             }
           }
         ]
@@ -168,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b35d9c1549cc5481",
+  "active": "b417a575215cf451",
   "lastOpenFiles": [
-    "Attachments/Token.md",
     "Untifdtled.md",
+    "Attachments/Token.md",
     "İşletim Sistemleri/Linux/SSH.md",
     "İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "2025-02-16.md",
