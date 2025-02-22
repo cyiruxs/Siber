@@ -142,4 +142,4 @@ google-authenticator
 sshd: 192.168.1.0/24
 ```
 
-SSH’ye saldırmayı ve korumayı bilmek kritik. Offensive tarafında brute force, key hijacking ve port forwarding ile iç ağa erişmeyi dene. Defensive olarak ise yetkilendirme açıklarını kapat, tünelleme ve brute force saldırılarını engelle.asdasdas
+SSH’ye saldırmayı ve korumayı bilmek kritik. Offensive tarafında brute force, key hijacking ve port forwarding ile iç ağa erişmeyi dene. Defensive olarak ise yetkilendirme açıklarını kapat, tünelleme ve brute force saldırılarını engelle.
