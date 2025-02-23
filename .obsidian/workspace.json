@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "SSH"
             }
+          },
+          {
+            "id": "f3c2d159a86bc5d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,12 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b35d9c1549cc5481",
+  "active": "f3c2d159a86bc5d8",
   "lastOpenFiles": [
+    "İşletim Sistemleri/Linux/SSH.md",
+    "conflict-files-obsidian-git.md",
     "Attachments/Token.md",
     "İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "İşletim Sistemleri/Linux/atas.md",
-    "İşletim Sistemleri/Linux/SSH.md",
     "İşletim Sistemleri/Linux/Temel Linux Komutları.md",
     "İşletim Sistemleri/Linux/atas.ms",
     "İşletim Sistemleri/Linux/Linux Notlar.md",
@@ -210,7 +226,6 @@
     "Attachments/Gidilecek sıra.md",
     "Websiteleri nasıl çalışır/README.md",
     "README.md",
-    "Siber/README.md",
     "Siber",
     "Attachments/Pasted image 20250214222818.png",
     "Untitled.canvas",
