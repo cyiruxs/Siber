@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attachments/Token.md",
+                "file": "İşletim Sistemleri/Linux/SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Token"
+              "title": "SSH"
             }
           }
         ]
@@ -168,18 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b417a575215cf451",
+  "active": "b35d9c1549cc5481",
   "lastOpenFiles": [
+    "Attachments/Token.md",
+    "İşletim Sistemleri/Linux/Linux Operatörleri.md",
+    "İşletim Sistemleri/Linux/atas.md",
+    "İşletim Sistemleri/Linux/SSH.md",
+    "İşletim Sistemleri/Linux/Temel Linux Komutları.md",
+    "İşletim Sistemleri/Linux/atas.ms",
+    "İşletim Sistemleri/Linux/Linux Notlar.md",
+    "İşletim Sistemleri/Linux/atas",
     "CyberSec/delimskqlsl",
     "Untifdtled.md",
-    "Attachments/Token.md",
-    "İşletim Sistemleri/Linux/SSH.md",
-    "İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "2025-02-16.md",
-    "İşletim Sistemleri/Linux/Temel Linux Komutları.md",
     "CyberSec/Data Exposure.md",
     "İşletim Sistemleri/Windows/Untitled.md",
-    "İşletim Sistemleri/Linux/Linux Notlar.md",
     "İşletim Sistemleri/Windows",
     "CyberSec/Websiteleri nasıl çalışır.md",
     "CyberSec/JavaScript.md",
@@ -209,9 +212,6 @@
     "README.md",
     "Siber/README.md",
     "Siber",
-    "bak-up/desktop.ini",
-    "bak-up",
-    "Backup",
     "Attachments/Pasted image 20250214222818.png",
     "Untitled.canvas",
     "Attachments/a2117dc267fbb169e38be77c7af44027.png",

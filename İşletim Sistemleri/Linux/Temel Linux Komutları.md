@@ -1,4 +1,3 @@
-Anladım, işte **Linux komutları** ve bunlara ait **parametreler**yle birlikte daha ayrıntılı açıklamalar:
 
 ### **📂 Dosya ve Dizin İşlemleri**
 
