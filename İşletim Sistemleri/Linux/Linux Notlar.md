@@ -1,4 +1,4 @@
-### Linux Nerelerde Kullanılır?asdas
+### Linux Nerelerde Kullanılır?
 
 Windows gibi işletim sistemlerine (OS) kıyasla, **Linux'u öğrenmek daha göz korkutucu olabilir**. Ancak her iki sistemin de kendine göre avantajları ve dezavantajları vardır. **Linux, çok daha hafif bir işletim sistemidir** ve aslında her gün farkında olmadan Linux tabanlı sistemler kullanıyor olabilirsin! Linux, aşağıdakiler gibi birçok yerde çalışır:
 
