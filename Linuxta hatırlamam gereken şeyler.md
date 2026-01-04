@@ -15,3 +15,10 @@ The Linux `tr` command, which stands for ’translate’, allows replacing cha
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 
+The final networking command we will cover in this room is `netstat`. This command displays current network connections and listening ports. A basic `netstat` command with no arguments will show you established connections, as shown below. In this case, we only have one SSH connection; we figured out it is SSH because it is bound to port 22.
+If you are curious about the other options, you can run `netstat -h`, where `-h` displays the help page. We opted for the following options:
+
+- `-a` displays all established connections and listening ports
+- `-b` shows the program associated with each listening port and established connection
+- `-o` reveals the process ID (PID) associated with the connection
+- `-n` uses a numerical form for addresses and port numbers
