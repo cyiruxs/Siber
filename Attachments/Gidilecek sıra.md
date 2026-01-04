@@ -2,7 +2,7 @@ Aşağıdaki sıralamaya uygun ilerle:
 
 
 
-- [ ] Siber Güvenlik Temelleri
+- [x] Siber Güvenlik Temelleri ✅ 2025-05-21
 
 - [ ] Pro. Manuel Web Sızma
 

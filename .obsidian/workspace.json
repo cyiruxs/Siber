@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Telnet"
             }
+          },
+          {
+            "id": "39e25543e22170b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CyberSec/Telnet.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Telnet"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -209,10 +223,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef4edd176613e839",
+  "active": "39e25543e22170b5",
   "lastOpenFiles": [
-    "CyberSec/Encapsulation.md",
+    "CyberSec/Networking Protocols.md",
+    "CyberSec/Data Exposure.md",
+    "siber/İşletim Sistemleri/Linux/Linux Operatörleri.md",
+    "conflict-files-obsidian-git.md",
     "CyberSec/Telnet.md",
+    "CyberSec/Encapsulation.md",
     "Pasted image 20251227164813.png",
     "CyberSec/OSI model.md",
     "Linuxta hatırlamam gereken şeyler.md",
@@ -238,7 +256,6 @@
     "CyberSec/Web Sunucuları Nasıl Çalışır.md",
     "CyberSec/HTML Enjeksiyonu.md",
     "CyberSec/HTML.md",
-    "CyberSec/Data Exposure.md",
     "CyberSec",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Token.md",
@@ -247,14 +264,11 @@
     "Attachments/Pasted image 20250214222818.png",
     "Attachments/Pasted image 20250215015754.png",
     "Attachments/html_source.png",
-    "Attachments/Gidilecek sıra.md",
     "Attachments/example_html.png",
     "Attachments",
     "Araştırma Skillleri",
     "Pasted image 20250803040635.png",
     "Pasted image 20250803040629.png",
-    "siber/İşletim Sistemleri/Linux/SSH.md",
-    "siber/İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "siber/İşletim Sistemleri/Linux",
     "siber/CyberSec"
   ]
