@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSec/Telnet.md",
-                "mode": "source",
+                "file": "CyberSec/OSI model.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Telnet"
+              "title": "OSI model"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CyberSec/Telnet.md",
+                "file": "CyberSec/OSI model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Telnet"
+              "title": "Backlinks for OSI model"
             }
           },
           {
@@ -211,11 +211,11 @@
   },
   "active": "ef4edd176613e839",
   "lastOpenFiles": [
+    "CyberSec/Telnet.md",
     "conflict-files-obsidian-git.md",
     "CyberSec/Networking Protocols.md",
     "CyberSec/Data Exposure.md",
     "siber/İşletim Sistemleri/Linux/Linux Operatörleri.md",
-    "CyberSec/Telnet.md",
     "CyberSec/Encapsulation.md",
     "Pasted image 20251227164813.png",
     "CyberSec/OSI model.md",

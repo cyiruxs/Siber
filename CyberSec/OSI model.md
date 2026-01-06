@@ -1,110 +1,165 @@
+# OSI (Open Systems Interconnection) Modeli
+
+Başlamadan önce, OSI modelinin ilk başta karmaşık görünebileceğini belirtelim. Kriptik kısaltmalarla karşılaşırsanız endişelenmeyin; OSI model katmanlarını örneklerle açıklıyoruz. Bu modülün sonunda bu görev size çocuk oyuncağı gibi gelecektir.
+
+OSI (Open Systems Interconnection) modeli, **International Organization for Standardization (ISO)** tarafından geliştirilmiş, bilgisayar ağlarında iletişimin nasıl gerçekleşmesi gerektiğini tanımlayan kavramsal bir modeldir. Başka bir deyişle, OSI modeli bilgisayar ağları için bir iletişim çerçevesi tanımlar. Teorik bir model olmasına rağmen, ağ kavramlarını daha derinlemesine anlamaya yardımcı olduğu için öğrenilmesi ve anlaşılması önemlidir.
+
+OSI modeli yedi katmandan oluşur:
+
+- Physical Layer
+    
+- Data Link Layer
+    
+- Network Layer
+    
+- Transport Layer
+    
+- Session Layer
+    
+- Presentation Layer
+    
+- Application Layer
+    
+
+Numaralandırma, **Physical Layer = Layer 1** olacak şekilde başlar ve en üst katman olan **Application Layer = Layer 7** ile biter. Katmanları alttan üste doğru hatırlamak için şu mnemonic kullanılabilir:
+
+> **Please Do Not Throw Spinach Pizza Away**
+
+Katmanları ve katman numaralarını bilmek önemlidir; aksi hâlde “layer 3 switch” veya “layer 7 firewall” gibi terimleri anlamakta zorlanabilirsiniz.
 
 ---
 
-### OSI Modeli Hakkında Genel Bilgi
+## Layer 1: Physical Layer
 
-OSI (Açık Sistemler Arası Bağlantı) modeli, Uluslararası Standardizasyon Örgütü (ISO) tarafından geliştirilen ve bir bilgisayar ağındaki iletişimin nasıl gerçekleşmesi gerektiğini tanımlayan **kavramsal bir modeldir**. Başka bir deyişle, OSI modeli bilgisayar ağı iletişimleri için bir çerçeve sunar. Bu model teorik olsa da, ağ kavramlarını daha derinlemesine anlamak için öğrenilmesi ve anlaşılması hayati önem taşır. OSI modeli yedi katmandan oluşur:
+Physical Layer, yani Layer 1, cihazlar arasındaki fiziksel bağlantıyla ilgilenir. Buna kullanılan ortam (medium) ve binary digits olan 0 ve 1’in tanımı dahildir. Veri iletimi elektriksel, optik veya wireless sinyallerle yapılabilir. Bu nedenle kullanılan fiziksel ortama bağlı olarak data cables veya antennas gereklidir.
 
-- Fiziksel Katman
+Ethernet cable ve optical fibre cable dışında, Physical Layer örnekleri arasında WiFi radio bands bulunur. Bunlar:
+
+- 2.4 GHz band
     
-- Veri Bağlantı Katmanı
+- 5 GHz band
     
-- Ağ Katmanı
-    
-- Taşıma Katmanı
-    
-- Oturum Katmanı
-    
-- Sunum Katmanı
-    
-- Uygulama Katmanı
-    
-
-Numaralandırma, fiziksel katmanın 1. katman, en üst katman olan uygulama katmanının ise 7. katman olarak başlamasıyla yapılır. Katmanları aşağıdan yukarıya doğru hatırlamanıza yardımcı olmak için "Pizzayı Dışarıya Atmayın Lütfen" gibi bir anımsatıcı kullanabilirsiniz. Bu, onları ezberlemenize yardımcı olursa, internette başka kolay hatırlanabilir kısaltmaları da kontrol edebilirsiniz. OSI modelinin katmanlarını numaralarıyla birlikte hatırlamak önemlidir; aksi takdirde "3. katman anahtarı" veya "7. katman güvenlik duvarı" gibi terimleri anlamakta zorlanırsınız.
-
----
-
-### Katman 1: Fiziksel Katman
-
-**Fiziksel katman**, veya 1. katman, cihazlar arasındaki fiziksel bağlantıyla ilgilenir; bu, kablo gibi ortamı ve 0 ve 1 gibi ikili rakamların tanımını içerir. Veri iletimi elektriksel, optik veya kablosuz bir sinyal aracılığıyla olabilir. Sonuç olarak, fiziksel ortamımıza bağlı olarak veri kablolarına veya antenlere ihtiyacımız vardır.
-
-Aşağıdaki illüstrasyonda gösterilen Ethernet kablosu ve optik fiber kabloya ek olarak, fiziksel katman ortamı örnekleri arasında WiFi radyo bantları, 2.4 GHz bandı, 5 GHz bandı ve 6 GHz bandı bulunur.
-
----
-
-### Katman 2: Veri Bağlantı Katmanı
-
-Fiziksel katman sinyalimizi iletmek için bir ortam tanımlar. Veri bağlantı katmanı, yani 2. katman, aynı ağ kesimindeki düğümler arasında veri aktarımını sağlayan **protokolü temsil eder**. Daha basit terimlerle ifade edelim. Veri bağlantı katmanı, aynı ağ kesimindeki farklı sistemler arasında nasıl iletişim kurulacağına dair bir anlaşmayı tanımlar. Bir ağ kesimi, bilgi aktarımı için paylaşılan bir ortam veya kanal kullanan bir grup ağa bağlı cihazı ifade eder. Örneğin, on bilgisayarın bir ağ anahtarına bağlı olduğu bir şirket ofisini düşünün; bu bir ağ kesimidir.
-
-2. katman örnekleri arasında **Ethernet** (yani 802.3) ve **WiFi** (yani 802.11) bulunur. Ethernet ve WiFi adresleri altı bayttır. Adreslerine **MAC adresi** denir, burada MAC, Media Access Control anlamına gelir. Genellikle her iki onaltılık basamak (bir bayt) arasına bir iki nokta üst üste konularak onaltılık formatta ifade edilirler. En soldaki üç bayt satıcıyı tanımlar.
-    
-
-Gerçek ağ iletişiminde Ethernet veya WiFi üzerinden her karede iki MAC adresi görmeyi bekleriz. Aşağıdaki ekran görüntüsündeki paket şunu gösterir:
-
-- Sarı renkle vurgulanan hedef veri-bağlantı adresi (MAC adresi)
-    
-- Mavi renkle vurgulanan kaynak veri-bağlantı adresi (MAC adresi)
-    
-- Kalan bitler gönderilen veriyi gösterir
+- 6 GHz band
     
 
 ---
 
-### Katman 3: Ağ Katmanı
+## Layer 2: Data Link Layer
 
-Veri bağlantı katmanı, aynı ağ kesimindeki iki düğüm arasında veri göndermeye odaklanır. Ağ katmanı, yani 3. katman, **farklı ağlar arasında veri göndermekle ilgilidir**. Daha teknik terimlerle, ağ katmanı mantıksal adreslemeyi ve yönlendirmeyi, yani çeşitli ağlar arasında ağ paketlerini aktarmak için bir yol bulmayı yönetir.
+Physical Layer sinyalin iletileceği ortamı tanımlar. **Data Link Layer (Layer 2)** ise aynı network segment üzerindeki node’lar arasında veri transferini sağlayan protokolleri temsil eder. Daha basit bir ifadeyle, Data Link Layer aynı network segment üzerindeki sistemlerin nasıl iletişim kuracağına dair bir anlaşmayı tanımlar.
 
-Veri bağlantı katmanında, on bilgisayarı olan bir şirket ofisi örneği verdik, burada veri bağlantı katmanı aralarındaki bağlantıyı sağlamaktan sorumludur. Bu şirketin çeşitli şehirler, ülkeler ve hatta kıtalar arasında dağıtılmış birden fazla ofisi olduğunu varsayalım. Ağ katmanı, farklı ofisleri birbirine bağlamaktan sorumludur.
+Network segment, bilgi transferi için ortak bir medium veya channel kullanan ağ cihazları grubunu ifade eder. Örneğin, bir ofiste bir switch’e bağlı on bilgisayar bir network segment oluşturur.
 
-Aşağıdaki ağ, bilgisayar A ve B'nin farklı ağlarda olmalarına rağmen bağlı olduğunu gösterir. İki bilgisayarı bağlayan iki yol olduğunu da fark edebilirsiniz; ağ katmanı, ağ paketlerini daha iyi gördüğü yoldan yönlendirecektir.
+Layer 2 örnekleri şunlardır:
 
-Ağ katmanı örnekleri arasında **Internet Protokolü (IP)**, **Internet Kontrol Mesaj Protokolü (ICMP)** ve **IPSec ve SSL/TLS VPN** gibi Sanal Özel Ağ (VPN) protokolleri bulunur.
-
----
-
-### Katman 4: Taşıma Katmanı
-
-4. katman olan **taşıma katmanı**, farklı ana bilgisayarlardaki çalışan uygulamalar arasında **uçtan uca iletişimi** sağlar. Web tarayıcınız, TryHackMe web sunucusuna taşıma katmanı üzerinden bağlıdır ve akış kontrolü, segmentasyon ve hata düzeltme gibi çeşitli işlevleri destekleyebilir.
+- Ethernet (802.3)
     
-5. katman örnekleri **İletim Kontrol Protokolü (TCP)** ve **Kullanıcı Datagram Protokolü (UDP)**'dir.
+- WiFi (802.11)
     
 
----
+Ethernet ve WiFi adresleri altı byte uzunluğundadır ve **MAC address** olarak adlandırılır. MAC, _Media Access Control_ anlamına gelir. MAC address’ler genellikle her iki hexadecimal digit arasında iki nokta olacak şekilde ifade edilir. Sol taraftaki ilk üç byte, network interface’i üreten vendor’ı tanımlar.
 
-### Katman 5: Oturum Katmanı
+Gerçek ağ iletişiminde, Ethernet veya WiFi üzerinden iletilen her frame içinde iki MAC address bulunur:
 
-**Oturum katmanı**, farklı ana bilgisayarlarda çalışan uygulamalar arasındaki iletişimi **kurmaktan, sürdürmekten ve senkronize etmekten** sorumludur. Bir oturum kurmak, uygulamalar arasında iletişimi başlatmak ve oturum için gerekli parametreleri müzakere etmek anlamına gelir. Veri senkronizasyonu, verilerin doğru sırada iletilmesini sağlar ve iletim hataları durumunda kurtarma mekanizmaları sunar.
+- Destination data-link address (MAC address)
+    
+- Source data-link address (MAC address)
+    
 
-Oturum katmanı örnekleri **Ağ Dosya Sistemi (NFS)** ve **Uzak Yordam Çağrısı (RPC)**'dir.
-
----
-
-### Katman 6: Sunum Katmanı
-
-**Sunum katmanı**, verinin uygulama katmanının anlayabileceği bir biçimde iletilmesini sağlar. 6. katman, **veri kodlaması, sıkıştırması ve şifrelemesini** yönetir. Kodlamaya bir örnek, ASCII veya Unicode gibi karakter kodlamasıdır.
-
-Sunum katmanında çeşitli standartlar kullanılır. Bir görüntüyü e-posta ile göndermek istediğimiz senaryoyu düşünün. İlk olarak, resimlerimizi kaydetmek için **JPEG, GIF ve PNG** kullanırız; ayrıca, kullanıcıdan e-posta istemcisi tarafından gizlenmiş olsa da, dosyayı e-postamıza eklemek için **MIME** (Multipurpose Internet Mail Extensions) kullanırız. MIME, ikili bir dosyayı 7 bitlik ASCII karakterleri kullanarak kodlar.
+Geri kalan bitler iletilen veriyi içerir.
 
 ---
 
-### Katman 7: Uygulama Katmanı
+## Layer 3: Network Layer
 
-**Uygulama katmanı**, doğrudan son kullanıcı uygulamalarına ağ hizmetleri sunar. Web tarayıcınız, bir dosya istemek, bir form göndermek veya bir dosya yüklemek için **HTTP** protokolünü kullanır.
+Data Link Layer, aynı network segment üzerindeki iki node arasında veri gönderimine odaklanır. **Network Layer (Layer 3)** ise verinin farklı network’ler arasında gönderilmesiyle ilgilenir. Daha teknik bir ifadeyle, Network Layer **logical addressing** ve **routing** işlemlerini yönetir; yani network packet’larının farklı network’ler arasında hangi yol üzerinden iletileceğini belirler.
 
-Uygulama katmanı en üst katmandır ve farklı uygulamalar kullanırken birçok protokolüyle karşılaşmış olabilirsiniz. 7. katman protokolleri örnekleri **HTTP, FTP, DNS, POP3, SMTP ve IMAP**'dir. Hepsine aşina değilseniz endişelenmeyin.
+Data Link Layer için tek bir ofiste bulunan ve aynı switch’e bağlı on bilgisayardan oluşan bir network segment örneği verilmişti. Bu şirketin farklı şehirlerde, ülkelerde veya kıtalarda bulunan birden fazla ofisi olduğunu varsayalım. Network Layer, bu farklı ofisleri birbirine bağlamaktan sorumludur.
+
+Bir network diyagramında, A ve B bilgisayarlarının farklı network’lerde olmalarına rağmen birbirleriyle bağlantılı olduğu ve aralarında birden fazla yol bulunduğu görülebilir. Network Layer, network packet’larını uygun gördüğü yol üzerinden yönlendirir.
+
+Layer 3 örnekleri şunlardır:
+
+- Internet Protocol (IP)
+    
+- Internet Control Message Protocol (ICMP)
+    
+- Virtual Private Network (VPN) protocols
+    
+    - IPSec
+        
+    - SSL/TLS VPN
+        
 
 ---
 
-### Özet
+## Layer 4: Transport Layer
 
-ISO OSI modeli hakkında ilk kez okumak göz korkutucu olabilir; ancak, ağ protokolleri üzerine çalışmanız ilerledikçe kolaylaşır. Çalışmalarınıza yardımcı olmak için, ISO OSI katmanlarını aşağıdaki tabloda özetledik.
+**Transport Layer (Layer 4)**, farklı host’lar üzerinde çalışan uygulamalar arasında end-to-end communication sağlar. Web browser, bir web server’a Transport Layer üzerinden bağlanır. Bu katman; flow control, segmentation ve error correction gibi işlevleri destekler.
 
-|Katman Numarası|Katman Adı|Ana İşlevi|Örnek Protokoller ve Standartlar|
+Layer 4 örnekleri:
+
+- Transmission Control Protocol (TCP)
+    
+- User Datagram Protocol (UDP)
+    
+
+---
+
+## Layer 5: Session Layer
+
+**Session Layer**, farklı host’lar üzerinde çalışan uygulamalar arasındaki iletişimi kurmak, sürdürmek ve senkronize etmekten sorumludur. Session establishment, uygulamalar arasındaki iletişimin başlatılmasını ve gerekli parametrelerin belirlenmesini ifade eder. Data synchronisation, verinin doğru sırayla iletilmesini sağlar ve iletim hataları durumunda recovery mekanizmaları sunar.
+
+Layer 5 örnekleri:
+
+- Network File System (NFS)
+    
+- Remote Procedure Call (RPC)
+    
+
+---
+
+## Layer 6: Presentation Layer
+
+**Presentation Layer**, verinin Application Layer tarafından anlaşılabilir bir formatta iletilmesini sağlar. Layer 6; data encoding, compression ve encryption işlemlerini gerçekleştirir. Encoding’e örnek olarak ASCII veya Unicode character encoding verilebilir.
+
+Presentation Layer’da çeşitli standartlar kullanılır. Örneğin, bir image e-posta ile gönderilmek istendiğinde JPEG, GIF veya PNG formatları kullanılır. Ayrıca, kullanıcıdan gizli olacak şekilde email client tarafından **MIME (Multipurpose Internet Mail Extensions)** kullanılır. MIME, binary dosyaları 7-bit ASCII karakterler kullanarak encode eder.
+
+---
+
+## Layer 7: Application Layer
+
+**Application Layer**, network servislerini doğrudan end-user applications’a sağlar. Bir web browser, HTTP protocol’ünü kullanarak bir dosya isteyebilir, form gönderebilir veya dosya yükleyebilir.
+
+Application Layer en üst katmandır ve günlük kullanımda birçok protocol bu katmanda yer alır.
+
+Layer 7 örnekleri:
+
+- HTTP
+    
+- FTP
+    
+- DNS
+    
+- POP3
+    
+- SMTP
+    
+- IMAP
+    
+
+---
+
+## Özet
+
+OSI modelini ilk kez okumak zorlayıcı olabilir; ancak networking protocol’leri öğrenildikçe daha anlaşılır hâle gelir. Aşağıdaki tabloda ISO OSI katmanları özetlenmiştir.
+
+|Layer Number|Layer Name|Main Function|Example Protocols and Standards|
 |---|---|---|---|
-|Katman 7|Uygulama katmanı|Uygulamalara hizmet ve arayüzler sağlar|HTTP, FTP, DNS, POP3, SMTP, IMAP|
-|Katman 6|Sunum katmanı|Veri kodlaması, şifrelemesi ve sıkıştırması|Unicode, MIME, JPEG, PNG, MPEG|
-|Katman 5|Oturum katmanı|Oturumları kurma, sürdürme ve senkronize etme|NFS, RPC|
-|Katman 4|Taşıma katmanı|Uçtan uca iletişim ve veri segmentasyonu|UDP, TCP|
-|Katman 3|Ağ katmanı|Ağlar arasında mantıksal adresleme ve yönlendirme|IP, ICMP, IPSec|
-|Katman 2|Veri bağlantı katmanı|Bitişik düğümler arasında güvenilir veri aktarımı|Ethernet (802.3), WiFi (802.11)|
-|Katman 1|Fiziksel katman|Fiziksel veri iletim ortamı|Elektriksel, optik ve kablosuz sinyaller|
+|Layer 7|Application Layer|Application’lara servis sağlama|HTTP, FTP, DNS, POP3, SMTP, IMAP|
+|Layer 6|Presentation Layer|Encoding, encryption, compression|Unicode, MIME, JPEG, PNG, MPEG|
+|Layer 5|Session Layer|Session yönetimi|NFS, RPC|
+|Layer 4|Transport Layer|End-to-end communication|TCP, UDP|
+|Layer 3|Network Layer|Logical addressing ve routing|IP, ICMP, IPSec|
+|Layer 2|Data Link Layer|Adjacent node’lar arası veri transferi|Ethernet (802.3), WiFi (802.11)|
+|Layer 1|Physical Layer|Fiziksel iletim ortamı|Electrical, optical, wireless|
