@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tcpdump/Filtering Expressions.md",
+                "file": "Cryptography/Basic Math.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filtering Expressions"
+              "title": "Basic Math"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gidilecek sıra.md",
+                "file": "Cryptography/Basic Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gidilecek sıra"
+              "title": "Backlinks for Basic Math"
             }
           },
           {
@@ -171,18 +171,30 @@
   },
   "active": "b35d9c1549cc5481",
   "lastOpenFiles": [
-    "Tcpdump/Basic Packet Capture.md",
+    "Cryptography/Types of Encryption.md",
+    "Cryptography/Basic Math.md",
+    "Cryptography/Historical Ciphers.md",
+    "Cryptography/Importance of Cryptography.md",
+    "Nmap/Host Discovery.md",
+    "Attachments/Pasted image 20251227164813.png",
+    "Cryptography",
+    "Nmap/Conclusion.md",
+    "Untitled.md",
+    "Untitled",
+    "Nmap/Output.md",
+    "Nmap/Timing.md",
+    "Nmap/OS Detection.md",
+    "Nmap/Port Discovery.md",
     "Tcpdump/Filtering Expressions.md",
+    "Nmap",
+    "Tcpdump/Basic Packet Capture.md",
     "Wireshark/Packet Navigation.md",
     "Tcpdump",
-    "Untitled.md",
     "Untitled 1.md",
-    "Untitled",
     "Wireshark/Packet Filtering.md",
     "Wireshark/Paneller.md",
     "CyberSec/Telnet.md",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20251227164813.png",
     "CyberSec/OSI model.md",
     "CyberSec/Encapsulation.md",
     "Active Directory Basics/Aktif Dizin.md",
@@ -192,24 +204,12 @@
     "Wireshark",
     "CyberSec/Networking Protocols.md",
     "Araştırma Skillleri/Arama Motorları.md",
-    "CyberSec/Diğer Bileşenler.md",
-    "Linuxta hatırlamam gereken şeyler.md",
-    "Attachments/Gidilecek sıra.md",
-    "Red Team Fundamentals/Zafiyet Değerlendirmesi ve Sızma Testlerinin Sınırlılıkları.md",
-    "Red Team Operasyonları/Kapsam ve Hedeflerin Tanımlanması.md",
     "Red Team Operasyonları",
-    "Red Team Fundamentals/Red Team Engagements.md",
-    "Red Team Fundamentals/Operat.md",
     "Red Team Fundamentals",
     "Attachments/Pasted image 20250803040635.png",
     "Attachments/Pasted image 20250803040629.png",
     "Araştırma Skillleri",
-    "İşletim Sistemleri/Linux/SSH.md",
-    "Attachments/Token.md",
-    "İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "İşletim Sistemleri/Linux/atas.ms",
-    "İşletim Sistemleri/Linux/atas",
-    "CyberSec/delimskqlsl",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215015754.png",
