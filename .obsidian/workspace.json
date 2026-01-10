@@ -1,46 +1,75 @@
 {
   "main": {
-    "id": "769fbf73307f37e1",
+    "id": "819329546792ec6e",
     "type": "split",
     "children": [
       {
-        "id": "9de368e93f108a2f",
+        "id": "e80e326130f11337",
         "type": "tabs",
         "children": [
           {
-            "id": "b35d9c1549cc5481",
+            "id": "6e31d8bb4d790e1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tcpdump/Filtering Expressions.md",
+                "file": "CyberSec/OSI model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filtering Expressions"
+              "title": "OSI model"
+            }
+          },
+          {
+            "id": "9425726f3c19b72e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberSec/Telnet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Telnet"
+            }
+          },
+          {
+            "id": "ef4edd176613e839",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wireshark/Paneller.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paneller"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "58eb966cd04d18d1",
+    "id": "4fcb68cb9d33414c",
     "type": "split",
     "children": [
       {
-        "id": "97c5cf016e45055d",
+        "id": "b41ce87aca69c211",
         "type": "tabs",
         "children": [
           {
-            "id": "b417a575215cf451",
+            "id": "ae6fb9a1e0caf51d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,13 +77,13 @@
             }
           },
           {
-            "id": "8af545f39d309394",
+            "id": "c99716a547911498",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "4313b5fdc080c8dc",
+            "id": "7bf24a62dd81898c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "58e1a20fef5947de",
+    "id": "4d3e44ce3df6ce9b",
     "type": "split",
     "children": [
       {
-        "id": "af7cda7205278ce7",
+        "id": "604f052a4bfbaf3b",
         "type": "tabs",
         "children": [
           {
-            "id": "57a7d74bdebd62ce",
+            "id": "afa03901a501f1c5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gidilecek sıra.md",
+                "file": "Wireshark/Paneller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,24 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Gidilecek sıra"
+              "title": "Backlinks for Paneller"
             }
           },
           {
-            "id": "fe9a161c58de190d",
+            "id": "5fc8c4c24eb20ad1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "a5d01e59b29555f0",
+            "id": "29a14ff201867be4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,87 +166,95 @@
             }
           },
           {
-            "id": "9a986dbdd656218a",
+            "id": "40ced9471678f40e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Red Team Operasyonları/Kapsam ve Hedeflerin Tanımlanması.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Kapsam ve Hedeflerin Tanımlanması"
+            }
+          },
+          {
+            "id": "4a8015b3fe295869",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b35d9c1549cc5481",
+  "active": "ef4edd176613e839",
   "lastOpenFiles": [
-    "Tcpdump/Basic Packet Capture.md",
+    "Araştırma Skillleri/Pasted image 20251227164813.png",
     "Tcpdump/Filtering Expressions.md",
-    "Wireshark/Packet Navigation.md",
-    "Tcpdump",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Untitled",
-    "Wireshark/Packet Filtering.md",
+    "Tcpdump/Advanced Filtering.md",
+    "Tcpdump/Basic Packet Capture.md",
+    "Tcpdump/Untitled",
+    "CyberSec/OSI model.md",
     "Wireshark/Paneller.md",
+    "Wireshark/Packet Filtering.md",
+    "Wireshark/Packet Navigation.md",
+    "Wireshark",
+    "Tcpdump",
+    "Attachments/Pasted image 20250803040635.png",
+    "Attachments/Pasted image 20250803040629.png",
     "CyberSec/Telnet.md",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20251227164813.png",
-    "CyberSec/OSI model.md",
+    "CyberSec/Networking Protocols.md",
+    "CyberSec/Data Exposure.md",
+    "siber/İşletim Sistemleri/Linux/Linux Operatörleri.md",
     "CyberSec/Encapsulation.md",
+    "Linuxta hatırlamam gereken şeyler.md",
     "Active Directory Basics/Aktif Dizin.md",
     "Active Directory Basics",
-    "Red Team Fundamentals/Teams and Functions of an Engagement.md",
-    "CyberSec/Untitled.md",
-    "Wireshark",
-    "CyberSec/Networking Protocols.md",
     "Araştırma Skillleri/Arama Motorları.md",
-    "CyberSec/Diğer Bileşenler.md",
-    "Linuxta hatırlamam gereken şeyler.md",
-    "Attachments/Gidilecek sıra.md",
-    "Red Team Fundamentals/Zafiyet Değerlendirmesi ve Sızma Testlerinin Sınırlılıkları.md",
     "Red Team Operasyonları/Kapsam ve Hedeflerin Tanımlanması.md",
     "Red Team Operasyonları",
+    "Red Team Fundamentals/Zafiyet Değerlendirmesi ve Sızma Testlerinin Sınırlılıkları.md",
+    "Red Team Fundamentals/Teams and Functions of an Engagement.md",
     "Red Team Fundamentals/Red Team Engagements.md",
     "Red Team Fundamentals/Operat.md",
     "Red Team Fundamentals",
-    "Attachments/Pasted image 20250803040635.png",
-    "Attachments/Pasted image 20250803040629.png",
-    "Araştırma Skillleri",
-    "İşletim Sistemleri/Linux/SSH.md",
-    "Attachments/Token.md",
+    "İşletim Sistemleri/Linux/Temel Linux Komutları.md",
     "İşletim Sistemleri/Linux/Linux Operatörleri.md",
-    "İşletim Sistemleri/Linux/atas.ms",
-    "İşletim Sistemleri/Linux/atas",
-    "CyberSec/delimskqlsl",
+    "İşletim Sistemleri/Linux/SSH.md",
+    "İşletim Sistemleri/Linux/Linux Notlar.md",
+    "İşletim Sistemleri/Linux",
+    "İşletim Sistemleri",
+    "CyberSec",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
-    "Attachments/Pasted image 20250215015754.png",
-    "Attachments/example_html.png",
     "Attachments/Pasted image 20250215021154.png",
-    "Attachments/html_source.png",
     "Attachments/Pasted image 20250214222818.png",
-    "Untitled.canvas"
+    "Attachments/Pasted image 20250215015754.png",
+    "Attachments/html_source.png",
+    "Attachments/example_html.png",
+    "Attachments"
   ]
 }
