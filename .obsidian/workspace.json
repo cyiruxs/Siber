@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9de368e93f108a2f",
+        "id": "8d6d1b4577f47a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "b35d9c1549cc5481",
+            "id": "6c83d3511789dfef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/Basic Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Basic Math"
+              "title": "Backlinks"
             }
           },
           {
@@ -169,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b35d9c1549cc5481",
+  "active": "6c83d3511789dfef",
   "lastOpenFiles": [
-    "Cryptography/Types of Encryption.md",
+    "Cryptography/Untitled.md",
     "Cryptography/Basic Math.md",
+    "Cryptography/Types of Encryption.md",
     "Cryptography/Historical Ciphers.md",
     "Cryptography/Importance of Cryptography.md",
     "Nmap/Host Discovery.md",
@@ -203,7 +203,6 @@
     "CyberSec/Untitled.md",
     "Wireshark",
     "CyberSec/Networking Protocols.md",
-    "Araştırma Skillleri/Arama Motorları.md",
     "Red Team Operasyonları",
     "Red Team Fundamentals",
     "Attachments/Pasted image 20250803040635.png",
