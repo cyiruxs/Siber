@@ -1,22 +1,86 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Active Directory Basics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3615280
+      }
+    },
+    {
+      "query": "path:CyberSec  ",
+      "color": {
+        "a": 1,
+        "rgb": 13970119
+      }
+    },
+    {
+      "query": "path:Tcpdump  ",
+      "color": {
+        "a": 1,
+        "rgb": 16762880
+      }
+    },
+    {
+      "query": "path:\"İşletim Sistemleri\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2381348
+      }
+    },
+    {
+      "query": "path:\"Red Team Fundamentals\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Wireshark  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:Nmap  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:Cryptography  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:\"Araştırma Skillleri\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5655051
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.4497920997921,
+  "lineSizeMultiplier": 2.61112266112266,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2292013594174936,
+  "scale": 0.010952991388875788,
   "close": true
 }
