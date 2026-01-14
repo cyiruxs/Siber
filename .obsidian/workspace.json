@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "42dd5075139d85b6",
+        "id": "6975c14fad760dc7",
         "type": "tabs",
         "children": [
           {
-            "id": "bccc63c8ec3fd1e0",
+            "id": "b79339c86cd9538c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "John The Ripper/Cracking Basic Hashes.md",
+                "file": "Metasploit/Main Components of Metasploit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cracking Basic Hashes"
-            }
-          },
-          {
-            "id": "ad88914ff07fc33d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "30361a511bebdc9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Main Components of Metasploit"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,37 +172,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30361a511bebdc9a",
+  "active": "b79339c86cd9538c",
   "lastOpenFiles": [
+    "Metasploit/Basic Terms.md",
+    "Metasploit/Main Components of Metasploit.md",
+    "Metasploit",
+    "John The Ripper/Cracking SSH Keys with John.md",
+    "John The Ripper/Cracking Password-Protected Zip Files.md",
+    "John The Ripper/Custom Rules.md",
+    "John The Ripper/Single Crack Mode.md",
+    "John The Ripper/Cracking Shadow Hashes.md",
+    "John The Ripper/Cracking Windows Authentication Hashes.md",
+    "Cryptography/Diffie-Hellman Key Exchange.md",
+    "Cryptography/RSA.md",
+    "Cryptography/Common Use of Asymmetric Encryption.md",
+    "Cryptography/Types of Encryption.md",
+    "John The Ripper/Basics.md",
+    "John The Ripper/Cracking Basic Hashes.md",
+    "Hash Basics/Hash Functions.md",
+    "Hash Basics/Password Cracking.md",
+    "Araştırma Skillleri/Arama Motorları.md",
+    "Hash Basics/Recognising Password Hashes.md",
+    "Hash Basics/Insecure Password Storage for Authentication.md",
     "conflict-files-obsidian-git.md",
     "Tcpdump/Advanced Filtering.md",
     "Araştırma Skillleri/Pasted image 20251227164813.png",
-    "John The Ripper/Basics.md",
-    "John The Ripper/Cracking Basic Hashes.md",
     "Hash Basics/Conclusion.md",
     "John The Ripper",
     "Hash Basics/Hashing for Integrity Checking.md",
-    "Hash Basics/Password Cracking.md",
     "Cryptography/Basic Math.md",
-    "Hash Basics/Recognising Password Hashes.md",
     "Hash Basics/Using Hashing for Secure Password Storage.md",
-    "Hash Basics/Insecure Password Storage for Authentication.md",
-    "Cryptography/Common Use of Asymmetric Encryption.md",
-    "Hash Basics/Hash Functions.md",
     "Cryptography/PGP ve GPG.md",
     "Hash Basics",
-    "Cryptography/Digital Signatures and Certificates.md",
-    "CyberSec/Encapsulation.md",
-    "2026-01-11.md",
-    "Araştırma Skillleri/Arama Motorları.md",
-    "Tcpdump/Basic Packet Capture.md",
-    "Tcpdump/Filtering Expressions.md",
-    "Cryptography/SSH.md",
-    "Cryptography/Diffie-Hellman Key Exchange.md",
-    "Cryptography/RSA.md",
-    "Cryptography/Types of Encryption.md",
-    "Cryptography/Historical Ciphers.md",
-    "Cryptography/Importance of Cryptography.md",
     "Attachments/Pasted image 20251227164813.png",
     "Cryptography",
     "Nmap",
@@ -240,7 +214,6 @@
     "Red Team Fundamentals",
     "Attachments/Pasted image 20250803040635.png",
     "Attachments/Pasted image 20250803040629.png",
-    "Araştırma Skillleri",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215015754.png",
