@@ -79,7 +79,3 @@ Elinizdeki hash'in türünü tanımladıktan sonra, John'a bu formatı kullanara
 **3. Format Karmaşası:** `hash-identifier` MD5 diyorsa ve John `raw-md5` ile kırmıyorsa, bu bir Windows hash'i (NTLM) olabilir. Bu durumda `--format=nt` denemek hayat kurtarır.
 
 ---
-
-### Pratik (Practical)
-
-Artık temel hash'leri kırmak için gereken sözdizimini, niteleyicileri ve yöntemleri biliyorsunuz; kendiniz deneyin! Dosyalar, ekli sanal makinedeki `~/John-the-Ripper-The-Basics/Task04/` dizininde bulunmaktadır.
