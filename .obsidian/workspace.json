@@ -1,73 +1,42 @@
 {
   "main": {
-    "id": "769fbf73307f37e1",
+    "id": "819329546792ec6e",
     "type": "split",
     "children": [
       {
-        "id": "42dd5075139d85b6",
+        "id": "e70c6fc0cb872f28",
         "type": "tabs",
         "children": [
           {
-            "id": "bccc63c8ec3fd1e0",
+            "id": "e5f446b64b4945c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "John The Ripper/Cracking Basic Hashes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cracking Basic Hashes"
-            }
-          },
-          {
-            "id": "ad88914ff07fc33d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "30361a511bebdc9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "58eb966cd04d18d1",
+    "id": "4fcb68cb9d33414c",
     "type": "split",
     "children": [
       {
-        "id": "97c5cf016e45055d",
+        "id": "b41ce87aca69c211",
         "type": "tabs",
         "children": [
           {
-            "id": "b417a575215cf451",
+            "id": "ae6fb9a1e0caf51d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -75,7 +44,7 @@
             }
           },
           {
-            "id": "8af545f39d309394",
+            "id": "c99716a547911498",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,7 +61,7 @@
             }
           },
           {
-            "id": "4313b5fdc080c8dc",
+            "id": "7bf24a62dd81898c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,54 +77,53 @@
     "width": 300
   },
   "right": {
-    "id": "58e1a20fef5947de",
+    "id": "4d3e44ce3df6ce9b",
     "type": "split",
     "children": [
       {
-        "id": "af7cda7205278ce7",
+        "id": "604f052a4bfbaf3b",
         "type": "tabs",
         "children": [
           {
-            "id": "57a7d74bdebd62ce",
+            "id": "afa03901a501f1c5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "John The Ripper/Cracking Basic Hashes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cracking Basic Hashes"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "fe9a161c58de190d",
+            "id": "5fc8c4c24eb20ad1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "John The Ripper/Cracking Basic Hashes.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cracking Basic Hashes"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "a5d01e59b29555f0",
+            "id": "29a14ff201867be4",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -164,89 +132,96 @@
             }
           },
           {
-            "id": "9a986dbdd656218a",
+            "id": "40ced9471678f40e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "John The Ripper/Cracking Basic Hashes.md",
+                "file": "Red Team Operasyonları/Kapsam ve Hedeflerin Tanımlanması.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cracking Basic Hashes"
+              "title": "Outline of Kapsam ve Hedeflerin Tanımlanması"
+            }
+          },
+          {
+            "id": "4a8015b3fe295869",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30361a511bebdc9a",
+  "active": "ae6fb9a1e0caf51d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Tcpdump/Advanced Filtering.md",
-    "Araştırma Skillleri/Pasted image 20251227164813.png",
-    "John The Ripper/Basics.md",
-    "John The Ripper/Cracking Basic Hashes.md",
-    "Hash Basics/Conclusion.md",
-    "John The Ripper",
-    "Hash Basics/Hashing for Integrity Checking.md",
-    "Hash Basics/Password Cracking.md",
     "Cryptography/Basic Math.md",
-    "Hash Basics/Recognising Password Hashes.md",
-    "Hash Basics/Using Hashing for Secure Password Storage.md",
+    "John The Ripper/Cracking Basic Hashes.md",
+    "John The Ripper/Basics.md",
+    "John The Ripper",
     "Hash Basics/Insecure Password Storage for Authentication.md",
-    "Cryptography/Common Use of Asymmetric Encryption.md",
+    "Hash Basics/Using Hashing for Secure Password Storage.md",
+    "Hash Basics/Recognising Password Hashes.md",
+    "Hash Basics/Password Cracking.md",
+    "Hash Basics/Hashing for Integrity Checking.md",
+    "Hash Basics/Conclusion.md",
     "Hash Basics/Hash Functions.md",
-    "Cryptography/PGP ve GPG.md",
     "Hash Basics",
-    "Cryptography/Digital Signatures and Certificates.md",
-    "CyberSec/Encapsulation.md",
-    "2026-01-11.md",
-    "Araştırma Skillleri/Arama Motorları.md",
-    "Tcpdump/Basic Packet Capture.md",
-    "Tcpdump/Filtering Expressions.md",
     "Cryptography/SSH.md",
-    "Cryptography/Diffie-Hellman Key Exchange.md",
     "Cryptography/RSA.md",
-    "Cryptography/Types of Encryption.md",
-    "Cryptography/Historical Ciphers.md",
-    "Cryptography/Importance of Cryptography.md",
-    "Attachments/Pasted image 20251227164813.png",
-    "Cryptography",
+    "Cryptography/PGP ve GPG.md",
+    "Cryptography/Digital Signatures and Certificates.md",
+    "Cryptography/Diffie-Hellman Key Exchange.md",
+    "Cryptography/Common Use of Asymmetric Encryption.md",
+    "conflict-files-obsidian-git.md",
+    "Wireshark/Paneller.md",
+    "Nmap/Output.md",
+    "Nmap/Timing.md",
+    "Nmap/Port Discovery.md",
+    "Nmap/Host Discovery.md",
+    "Nmap/OS Detection.md",
+    "Nmap/Conclusion.md",
     "Nmap",
-    "Tcpdump",
-    "Active Directory Basics",
+    "Cryptography/Importance of Cryptography.md",
+    "Cryptography/Historical Ciphers.md",
+    "Cryptography",
+    "Attachments/Pasted image 20251227164813.png",
+    "Araştırma Skillleri/Pasted image 20251227164813.png",
+    "Tcpdump/Untitled",
     "Wireshark",
-    "Red Team Operasyonları",
-    "Red Team Fundamentals",
+    "Tcpdump",
     "Attachments/Pasted image 20250803040635.png",
     "Attachments/Pasted image 20250803040629.png",
-    "Araştırma Skillleri",
+    "Active Directory Basics",
+    "Red Team Operasyonları",
+    "Red Team Fundamentals",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
-    "Attachments/Pasted image 20250215015754.png",
-    "Attachments/example_html.png",
     "Attachments/Pasted image 20250215021154.png",
-    "Attachments/html_source.png",
-    "Untitled.canvas"
+    "Attachments/Pasted image 20250214222818.png",
+    "Attachments/Pasted image 20250215015754.png",
+    "Attachments/html_source.png"
   ]
 }
