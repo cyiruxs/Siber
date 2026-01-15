@@ -11,10 +11,14 @@
             "id": "e5f446b64b4945c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -175,8 +180,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae6fb9a1e0caf51d",
+  "active": "e5f446b64b4945c1",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Metasploit/Main Components of Metasploit.md",
+    "Metasploit/Basic Terms.md",
+    "Metasploit",
+    "John The Ripper/Single Crack Mode.md",
+    "John The Ripper/Custom Rules.md",
+    "John The Ripper/Cracking Windows Authentication Hashes.md",
+    "John The Ripper/Cracking Shadow Hashes.md",
+    "John The Ripper/Cracking SSH Keys with John.md",
+    "John The Ripper/Cracking Password-Protected Zip Files.md",
     "Cryptography/Basic Math.md",
     "John The Ripper/Cracking Basic Hashes.md",
     "John The Ripper/Basics.md",
@@ -195,17 +210,8 @@
     "Cryptography/Digital Signatures and Certificates.md",
     "Cryptography/Diffie-Hellman Key Exchange.md",
     "Cryptography/Common Use of Asymmetric Encryption.md",
-    "conflict-files-obsidian-git.md",
     "Wireshark/Paneller.md",
-    "Nmap/Output.md",
-    "Nmap/Timing.md",
-    "Nmap/Port Discovery.md",
-    "Nmap/Host Discovery.md",
-    "Nmap/OS Detection.md",
-    "Nmap/Conclusion.md",
     "Nmap",
-    "Cryptography/Importance of Cryptography.md",
-    "Cryptography/Historical Ciphers.md",
     "Cryptography",
     "Attachments/Pasted image 20251227164813.png",
     "Araştırma Skillleri/Pasted image 20251227164813.png",
@@ -216,7 +222,6 @@
     "Attachments/Pasted image 20250803040629.png",
     "Active Directory Basics",
     "Red Team Operasyonları",
-    "Red Team Fundamentals",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215021154.png",
