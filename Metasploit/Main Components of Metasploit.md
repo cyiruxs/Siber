@@ -50,7 +50,7 @@ auxiliary/
 20 directories, 2 files
 ```
 
-### Encoders (Kodlayıcılar)12
+### Encoders (Kodlayıcılar)
 
 Encoder'lar, imza tabanlı bir antivirüs çözümünün onları kaçırması umuduyla exploit ve payload'u kodlamanıza olanak tanır. İmza tabanlı antivirüs ve güvenlik çözümleri, bilinen tehditlerin bir veritabanına sahiptir. Tehditleri, şüpheli dosyaları bu veritabanıyla karşılaştırarak tespit ederler ve bir eşleşme varsa uyarı verirler. Bu nedenle, antivirüs çözümleri ek kontroller gerçekleştirebildiğinden, encoder'ların başarı oranı sınırlı olabilir.
 

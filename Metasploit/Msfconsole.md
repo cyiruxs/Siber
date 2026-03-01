@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Metasploit Konsolu (msfconsole)
 
 Daha önce belirtildiği gibi, konsol Metasploit Framework ile ana etkileşim arayüzünüz olacaktır. Bunu AttackBox terminalinizde veya Metasploit Framework'ün kurulu olduğu herhangi bir sistemde **`msfconsole`** komutunu kullanarak başlatabilirsiniz.
@@ -8,6 +9,12 @@ Bash
 
 ```
 root@ip-10-10-220-191:~# msfconsole                                                   
+=======
+- [ ] # Metasploit Konsolu (msfconsole)
+
+Daha önce belirtildiği gibi, konsol Metasploit Framework ile ana etkileşim arayüzünüz olacaktır. Bunu AttackBox terminalinizde veya Metasploit Framework'ün kurulu olduğu herhangi bir sistemde **`msfconsole`** komutunu kullanarak başlatabilirsiniz.
+   
+>>>>>>> origin/main
 
                  _---------.
              .' #######   ;."
@@ -116,7 +123,11 @@ msf6 > history
 10  use exploit/multi/script/web_delivery
 ```
 
+<<<<<<< HEAD
 msfconsole'un önemli bir özelliği **sekme tamamlama (tab completion)** desteğidir. Bu, daha sonra Metasploit komutlarını kullanırken veya modüllerle uğraşırken işinize yarayacaktır. Örneğin, **`he`** yazmaya başlar ve tab tuşuna basarsanız, bunun otomatik olarak **`help`** şeklinde tamamlandığını görürsünüz.
+=======
+msfconsole'un önemli bir özelliği **sekme tamamlama (tab completion)** desteğidir. Bu, daha sonra Metasploit komutlarını kullanırken veya modüllerle uğraarken işinize yarayacaktır. Örneğin, **`he`** yazmaya başlar ve tab tuşuna basarsanız, bunun otomatik olarak **`help`** şeklinde tamamlandığını görürsünüz.
+>>>>>>> origin/main
 
 Msfconsole bağlam (context) ile yönetilir; bu, global bir değişken olarak ayarlanmadığı sürece, kullanmaya karar verdiğiniz modülü değiştirirseniz tüm parametre ayarlarının kaybolacağı anlamına gelir. Aşağıdaki örnekte, **ms17_010_eternalblue** exploit'ini kullandık ve **RHOSTS** gibi parametreleri ayarladık. Başka bir modüle (örneğin bir port tarayıcıya) geçecek olursak, yaptığımız tüm değişiklikler `ms17_010_eternalblue` exploit bağlamında kaldığından RHOSTS değerini tekrar ayarlamamız gerekecektir.
 
@@ -191,7 +202,11 @@ Exploit target:
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
+<<<<<<< HEAD
 Bu, daha önce seçtiğimiz exploit ile ilgili seçenekleri yazdıracaktır. `show options` komutu, kullanıldığı bağlama bağlı olarak farklı çıktılara sahip olacaktır. Yukarıdaki örnek, bu exploit'in RHOSTS ve RPORT gibi değişkenleri ayarlamamızı gerektireceğini göstermektedir. Öte yandan, bir sızma sonrası (post-exploitation) modülü sadece bir **SESSION ID** ayarlamamıza ihtiyaç duyabilir. Bir oturum (session), sızma sonrası modülünün kullanacağı hedef sisteme olan mevcut bir bağlantıdır.
+=======
+Bu, daha önce seçtiğimiz exploit ile ilgili seçenekleri yazdıracaktır. `show options` komutu, kullanıldığı bağlama bağlı olarak farklı çıktılara sahip olacaktır. Yukarıdaki örnek, bu exploit'in RHOSTS ve RPORT gibi değişkenleri ayarlamamızı gerektireceğini göstermektedir. Öte yandan, bir sızma sonrası (post-exploitation) modülü sadece bir **SESSION ID** ayarlamamıza ihtiyaç duyabilir (aşağıdaki ekran görüntüsüne bakın). Bir oturum (session), sızma sonrası modülünün kullanacağı hedef sisteme olan mevcut bir bağlantıdır.
+>>>>>>> origin/main
 
 **Bir Sızma Sonrası Modülü İçin Seçenekler**
 
@@ -322,10 +337,18 @@ Lütfen exploit'lerin hedef sistemdeki bir zafiyetten yararlandığını ve her 
 
 ---
 
+<<<<<<< HEAD
 ### 🛡️ Siber Güvenlik ve CTF İpucu
+=======
+### 🛡️ Siber Güvenlik ve CTF İpuçları
+>>>>>>> origin/main
 
 - **RHOSTS Ayarlama:** Bir modül seçtikten sonra hedef IP'yi ayarlamak için `set RHOSTS [Hedef_IP]` komutunu kullan.
     
 - **LHOST Ayarlama:** Dinleyici IP'nizi (genellikle kendi VPN IP'niz) ayarlamak için `set LHOST [Senin_IP]` komutunu kullan.
     
+<<<<<<< HEAD
 - **Arama İpucu:** Spesifik bir platform için arama yaparken `search platform:windows type:exploit` gibi filtreler kullanarak zaman kazanabilirsin.m 
+=======
+- **Arama İpucu:** Spesifik bir platform için arama yaparken `search platform:windows type:exploit` gibi filtreler kullanarak zaman kazanabilirsin.
+>>>>>>> origin/main
