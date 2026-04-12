@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "John The Ripper/Single Crack Mode.md",
+                "file": "SQL Fundamentals/Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Single Crack Mode"
+              "title": "Functions"
+            }
+          },
+          {
+            "id": "6de04b567ddff391",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "John The Ripper/Single Crack Mode.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Single Crack Mode"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -180,48 +195,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "794f40b902e13c0e",
+  "active": "6de04b567ddff391",
   "lastOpenFiles": [
+    "SQL Fundamentals/Functions.md",
     "conflict-files-obsidian-git.md",
-    "Metasploit/Main Components of Metasploit.md",
-    "Metasploit/Basic Terms.md",
-    "Metasploit",
+    "Burp Suite",
+    "SQL Fundamentals/Untitled.md",
     "John The Ripper/Single Crack Mode.md",
-    "John The Ripper/Custom Rules.md",
-    "John The Ripper/Cracking Windows Authentication Hashes.md",
-    "John The Ripper/Cracking Shadow Hashes.md",
-    "John The Ripper/Cracking SSH Keys with John.md",
-    "John The Ripper/Cracking Password-Protected Zip Files.md",
-    "Cryptography/Basic Math.md",
-    "John The Ripper/Cracking Basic Hashes.md",
-    "John The Ripper/Basics.md",
+    "İşletim Sistemleri/Linux/Linuxta hatırlamam gereken şeyler.md",
+    "Web Application Basics/Web Application Overview.md",
+    "Web Application Basics/Uniform Resource Locator.md",
+    "Web Application Basics/Security Headers.md",
+    "Web Application Basics/HTTP Response (Headers and Body).md",
+    "Web Application Basics/HTTP Requests(Request Lines and Methods).md",
+    "Web Application Basics/HTTP Response (Status Line and Status Codes).md",
+    "Web Application Basics/HTTP Messages.md",
+    "Web Application Basics/HTTP Request (Headers and Body).md",
+    "Web Application Basics",
+    "SQL Fundamentals/SQL.md",
+    "SQL Fundamentals/Operators.md",
+    "SQL Fundamentals/Introducing Databases.md",
+    "SQL Fundamentals/CRUD.md",
+    "SQL Fundamentals/Databases 101.md",
+    "SQL Fundamentals/Databases and Table Statements.md",
+    "SQL Fundamentals/Conclusion.md",
+    "SQL Fundamentals/Clauses.md",
+    "SQL Fundamentals",
+    "Metasploit/Working with Modules.md",
+    "Metasploit/Vulnerability Scanning.md",
+    "Metasploit/Scanning.md",
+    "Metasploit/Post-Exploitation with Meterpreter.md",
+    "JavaScript",
+    "Metasploit",
     "John The Ripper",
-    "Hash Basics/Insecure Password Storage for Authentication.md",
-    "Hash Basics/Using Hashing for Secure Password Storage.md",
-    "Hash Basics/Recognising Password Hashes.md",
-    "Hash Basics/Password Cracking.md",
-    "Hash Basics/Hashing for Integrity Checking.md",
-    "Hash Basics/Conclusion.md",
-    "Hash Basics/Hash Functions.md",
     "Hash Basics",
-    "Cryptography/SSH.md",
-    "Cryptography/RSA.md",
-    "Cryptography/PGP ve GPG.md",
-    "Cryptography/Digital Signatures and Certificates.md",
-    "Cryptography/Diffie-Hellman Key Exchange.md",
-    "Cryptography/Common Use of Asymmetric Encryption.md",
-    "Wireshark/Paneller.md",
     "Nmap",
     "Cryptography",
     "Attachments/Pasted image 20251227164813.png",
     "Araştırma Skillleri/Pasted image 20251227164813.png",
     "Tcpdump/Untitled",
-    "Wireshark",
-    "Tcpdump",
     "Attachments/Pasted image 20250803040635.png",
     "Attachments/Pasted image 20250803040629.png",
-    "Active Directory Basics",
-    "Red Team Operasyonları",
     "Attachments/Pasted image 20250215021206.png",
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215021154.png",
