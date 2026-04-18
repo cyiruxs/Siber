@@ -1,0 +1,9 @@
+Tüm trafiği yakalamak ve günlüğe kaydetmek, özellikle sadece belirli web uygulamalarına odaklanmak istediğimizde, hızla bunaltıcı ve zahmetli bir hale gelebilir. Kapsam belirleme (**scoping**) tam bu noktada devreye girer.
+
+Proje için bir kapsam (**scope**) belirleyerek, **Burp Suite**'te nelerin proxy üzerinden geçeceğini ve günlüğe kaydedileceğini tanımlayabiliriz. **Burp Suite**'i yalnızca test etmek istediğimiz belirli web uygulama(lar)ını hedefleyecek şekilde kısıtlayabiliriz. Bunu yapmanın en kolay yolu, **Target** sekmesine geçmek, soldaki listeden hedefimize sağ tıklamak ve **Add To Scope** (Kapsama Ekle) seçeneğini seçmektir. Burp daha sonra bize kapsam dışında kalan her şeyi günlüğe kaydetmeyi durdurmak isteyip istemediğimizi soracaktır; çoğu durumda **yes** (evet) seçeneğini seçmek isteriz.
+
+Kapsamımızı kontrol etmek için **Target** sekmesi altındaki **Scope settings** alt sekmesine geçebiliriz. **Scope settings** penceresi, domain'leri/**IP**'leri dahil ederek (**including**) veya hariç tutarak (**excluding**) hedef kapsamımızı kontrol etmemize olanak tanır. Bu bölüm oldukça güçlüdür ve aşina olmak için zaman ayırmaya değerdir.
+
+Ancak, kapsam dışı trafik için günlüğe kaydetmeyi devre dışı bıraksak bile, proxy yine de her şeyi intercept edecektir (durduracaktır). Bunu önlemek için **Proxy settings** alt sekmesine gitmemiz ve "Intercept Client Requests" bölümünden **And URL Is in target scope** (Ve URL hedef kapsamında) seçeneğini seçmemiz gerekir.
+
+Bu seçeneğin etkinleştirilmesi, **proxy**'nin tanımlanan kapsamda olmayan tüm trafiği tamamen görmezden gelmesini sağlar ve bu da **Burp Suite**'te daha temiz bir trafik görünümü ile sonuçlanır.
