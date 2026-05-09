@@ -1,0 +1,21 @@
+## Log Kategorileri ve Analiz Teknikleri
+
+Önceki görevde, **log**'ların çeşitli kullanım durumlarını gördük. Ancak bir zorluk var: Bir sistemdeki sorunu **log**'lar üzerinden araştırmanız gerektiğini hayal edin; o sistemin **log file**'ını açıyorsunuz ve farklı kategorilerdeki sayısız **event**'i gördükten sonra kayboluyorsunuz.
+
+İşte çözüm: **Log**'lar, sağladıkları bilgi türüne göre birden fazla kategoriye ayrılır (**segregated**). Böylece artık sadece sorunun ilgili olduğu spesifik **log file**'a bakmanız yeterlidir.
+
+Örneğin, Windows **OS** üzerinde dün belirli bir zaman dilimindeki başarılı girişleri (**logins**) araştırmanız gerekiyor. Tüm **log**'lara bakmak yerine, giriş bilgilerini bulmak için yalnızca sistemin **Security Logs** kısmına bakmanız yeterlidir. Farklı olayların araştırılmasında yararlı olan diğer **log** türlerimiz de mevcuttur. Bunlara bir göz atalım:
+
+|Log Türü|Kullanım|Örnek|
+|---|---|---|
+|**System Logs**|İşletim sistemindeki (**OS**) çalışma sorunlarını gidermede yardımcı olabilir. Bu **log**'lar çeşitli işletim sistemi faaliyetleri hakkında bilgi sağlar.|- Sistem başlatma ve kapatma olayları<br><br>  <br><br>- **Driver Loading** (Sürücü Yükleme) olayları<br><br>  <br><br>- **System Error** olayları<br><br>  <br><br>- Donanım (**Hardware**) olayları|
+|**Security Logs**|**Incident**'ların tespiti ve araştırılmasına yardımcı olur. Bu **log**'lar, sistemdeki güvenlikle ilgili faaliyetler hakkında bilgi sağlar.|- **Authentication** (Kimlik Doğrulama) olayları<br><br>  <br><br>- **Authorization** (Yetkilendirme) olayları<br><br>  <br><br>- Güvenlik politikası (**Security Policy**) değişiklikleri<br><br>  <br><br>- Kullanıcı hesabı değişiklikleri<br><br>  <br><br>- Anormal faaliyet (**Abnormal Activity**) olayları|
+|**Application Logs**|Uygulama ile ilgili spesifik **event**'leri içerir. Uygulama içinde gerçekleşen her türlü **interactive** veya **non-interactive** faaliyet burada günlüğe kaydedilir.|- Kullanıcı etkileşimi olayları<br><br>  <br><br>- Uygulama değişiklikleri<br><br>  <br><br>- Uygulama güncelleme (**Update**) olayları<br><br>  <br><br>- Uygulama hatası (**Error**) olayları|
+|**Audit Logs**|Sistem değişiklikleri ve kullanıcı olayları hakkında ayrıntılı bilgi sağlar. Bu **log**'lar uyumluluk (**compliance**) gereksinimleri için yararlıdır ve güvenlik izlemede de hayati bir rol oynayabilir.|- Veri erişim (**Data Access**) olayları<br><br>  <br><br>- Sistem değişikliği olayları<br><br>  <br><br>- Kullanıcı faaliyeti olayları<br><br>  <br><br>- Politika uygulama (**Policy Enforcement**) olayları|
+|**Network Logs**|Ağın gelen ve giden trafiği hakkında bilgi sağlar. Ağ sorunlarını gidermede kritik rol oynarlar ve olay incelemeleri sırasında da oldukça kullanışlı olabilirler.|- Gelen ağ trafiği olayları<br><br>  <br><br>- Giden ağ trafiği olayları<br><br>  <br><br>- Ağ bağlantı (**Network Connection**) günlükleri<br><br>  <br><br>- Ağ güvenlik duvarı (**Network Firewall**) günlükleri|
+|**Access Logs**|Farklı kaynaklara erişim hakkında ayrıntılı bilgi sağlar. Bu kaynaklar farklı türlerde olabilir ve bize bunların erişimi hakkında bilgi sunar.|- Web sunucusu (**Webserver**) erişim günlükleri<br><br>  <br><br>- Veritabanı (**Database**) erişim günlükleri<br><br>  <br><br>- Uygulama erişim günlükleri<br><br>  <br><br>- **API** erişim günlükleri|
+
+
+**Not:** Farklı uygulamalara ve sağladıkları hizmetlere bağlı olarak çeşitli başka **log** türleri de olabilir.
+
+Bu **log**'ların ne olduğunu ve çeşitli senaryolarda nasıl yardımcı olabileceğini anladığımıza göre, şimdi bu **log**'ları nasıl analiz ettiğimizi ve onlardan gereken değerli bilgileri nasıl çıkardığımızı görelim. **Log Analysis**, **log**'lardan değerli verileri çıkarma tekniğidir. Herhangi bir anormal veya olağandışı faaliyet belirtisinin aranmasını içerir. Çıplak gözle **log**'larda belirli bir faaliyeti veya anormalliği aramak imkansızdır. Bu nedenle, **log analysis** için çeşitli manuel ve otomatik tekniklerimiz bulunmaktadır. Gelecek görevlerde Windows ve Web Sunucusu erişim günlükleri üzerinde manuel olarak **log analysis** gerçekleştireceğiz.

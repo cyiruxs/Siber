@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Application Basics/HTTP Requests(Request Lines and Methods).md",
+                "file": "IDS Fundamentals/2 IDS Example Snort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP Requests(Request Lines and Methods)"
+              "title": "2 IDS Example Snort"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "başlı",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +183,28 @@
   },
   "active": "2533170599f4755c",
   "lastOpenFiles": [
+    "IDS Fundamentals/1 Types of IDS.md",
+    "IDS Fundamentals/2 IDS Example Snort.md",
+    "Firewall Fundamentals/4 Linux Iptables Firewall.md",
+    "IDS Fundamentals",
+    "Firewall Fundamentals/3 Windows Firewall Defender.md",
+    "Firewall Fundamentals/2 Rules in Firewalls.md",
+    "Firewall Fundamentals/1 Types of Firewalls.md",
+    "Gobuster/2 Directory and File Enumeration.md",
+    "Firewall",
+    "SIEM/3 Log Sources and Ingestion.md",
+    "Firewall Fundamentals",
+    "SIEM/2 Why SIEM.md",
+    "SIEM/1 Logs Everywhere, Answers Nowhere.md",
+    "Log Fundamentals/3 Web Server Access Logs Analysis.md",
+    "Başlıksız 1",
+    "Log Fundamentals/2 Windows Event Log Analysis.md",
+    "Log Fundamentals/1 Types of Logs.md",
+    "Incident Response Fundamentals/4 Incident Response Techniques.md",
+    "Log Fundamentals",
+    "Incident Response Fundamentals/3 Incident Response Process.md",
     "Incident Response Fundamentals/2 Types of Incidents.md",
+    "Web Application Basics/HTTP Requests(Request Lines and Methods).md",
     "Incident Response Fundamentals/1 What are Incidents.md",
     "Digital Forensics Fundamentals/4 Windows Forensics.md",
     "Incident Response Fundamentals",
@@ -195,30 +216,9 @@
     "SOC Fundamentals/4 Process.md",
     "SOC Fundamentals/3 People.md",
     "SOC Fundamentals/2 Purpose and Components.md",
-    "SOC Fundamentals/1 Introduction.md",
-    "SQLMap/2 Automated SQL Tools.md",
     "SOC Fundamentals",
-    "Başlıksız",
-    "SQLMap/1 Introduction.md",
-    "Shells/6 Web Shells.md",
+    "SIEM",
     "SQLMap",
-    "Shells/5 Shell Payloads.md",
-    "Shells/4 Shell Listeners.md",
-    "Shells/Web Shells.md",
-    "Shells/2 Reverse Shell.md",
-    "Shells/6 Web Shell.md",
-    "Shells/3 Bind Shell.md",
-    "Shells/1 What is Shell.md",
-    "Gobuster/4 Vhost Enumeration.md",
-    "Shells",
-    "Gobuster/3 Subdomain Enumeration.md",
-    "Gobuster/2 Directory and File Enumeration.md",
-    "Gobuster/1 What is Gobuster.md",
-    "Hydra/2 Hydra Commands.md",
-    "Gobuster",
-    "Hydra",
-    "Burp Suite",
-    "Web Application Basics",
     "Attachments/Pasted image 20251227164813.png",
     "Araştırma Skillleri/Pasted image 20251227164813.png",
     "Attachments/Pasted image 20250803040635.png",
