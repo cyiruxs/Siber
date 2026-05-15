@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberChef/Processing.md",
+                "file": "CAPA/6 More Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Processing"
+              "title": "6 More Information"
             }
           }
         ]
@@ -183,9 +183,18 @@
   },
   "active": "2533170599f4755c",
   "lastOpenFiles": [
+    "CAPA/5 Capabilities.md",
+    "CAPA/6 More Information.md",
+    "CAPA/4 Namespaces.md",
+    "CAPA/3 Malware Behavior Catalogue.md",
+    "CAPA/Başlıksız",
+    "CAPA/2 General Information, MITRE and MAEC.md",
+    "CAPA/1 How Capa Works.md",
+    "CyberChef/2 Processing.md",
+    "CAPA",
+    "CyberChef/1 Navigating the Interface.md",
+    "CyberChef/3 Pratik.md",
     "5f9c7574e201fe31dad228fc-1729242272295.png",
-    "CyberChef/Navigating the Interface.md",
-    "CyberChef/Processing.md",
     "Vulnerability Scanner/4 OpenVAS.md",
     "CyberChef",
     "Vulnerability Scanner/3 CVEE and CVSS.md",
@@ -209,16 +218,8 @@
     "Log Fundamentals/3 Web Server Access Logs Analysis.md",
     "Başlıksız 1",
     "Log Fundamentals/2 Windows Event Log Analysis.md",
-    "Log Fundamentals/1 Types of Logs.md",
-    "Incident Response Fundamentals/4 Incident Response Techniques.md",
     "Log Fundamentals",
-    "Incident Response Fundamentals/3 Incident Response Process.md",
-    "Incident Response Fundamentals/2 Types of Incidents.md",
-    "Web Application Basics/HTTP Requests(Request Lines and Methods).md",
-    "Incident Response Fundamentals/1 What are Incidents.md",
     "Incident Response Fundamentals",
-    "Digital Forensics Fundamentals",
-    "SOC Fundamentals",
     "Attachments/Pasted image 20251227164813.png",
     "Araştırma Skillleri/Pasted image 20251227164813.png",
     "Attachments/Pasted image 20250803040635.png",
@@ -227,7 +228,6 @@
     "Attachments/Pasted image 20250215021310.png",
     "Attachments/Pasted image 20250215021154.png",
     "Attachments/Pasted image 20250214222818.png",
-    "Attachments/Pasted image 20250215015754.png",
-    "Attachments/html_source.png"
+    "Attachments/Pasted image 20250215015754.png"
   ]
 }
